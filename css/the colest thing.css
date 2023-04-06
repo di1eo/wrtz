@@ -1,0 +1,236 @@
+
+
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    background-attachment: fixed auto;
+    text-align: auto;
+    display: auto;
+    transform-origin: auto;
+    font-style: normal;
+    
+}
+
+
+
+
+body {
+
+    background-image: url("r.jpg") ;
+    background-color: rgba(0, 0, 0, 0.637);
+    background-size: cover auto;
+    background-size: 600px;
+    background-position: 500px;
+    background-attachment: fixed;
+    font-style: normal;
+
+}
+
+header {
+  margin-top: 5px;
+  padding: 20px;
+  margin-left: px;
+  background-color: rgba(0, 0, 0, 0.733);
+  text-align: center;
+  font-style: normal;
+}
+
+
+nav ul {
+
+  list-style: initial;
+  display: flex;
+  margin:  auto;
+  padding:  auto;
+  list-style: none;
+  text-align: center;
+  
+
+
+}
+
+nav li {
+  margin-right: 20px auto;
+  
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.li1 {
+  background-color: black;
+  background-size: 15px;
+  width: 55px;
+  padding-right: 3px;
+  padding-left: 3px;
+  
+}
+.li2 {
+  background-color: black;
+  background-size: 15px;
+  width: 50px;
+  padding-right: 1px;
+  padding-left: 1px;
+  
+}
+.li3 {
+  background-color: black;
+  background-size: 15px;
+  width: 46px;
+  padding-right: px;
+  padding-left: 4px;
+  
+}
+
+main {
+
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.637);
+  font-style: normal;
+
+}
+
+
+
+@keyframes rotateText {
+    0% {
+      transform: rotateX(90deg);
+      opacity: 0;
+    }
+    100% {
+      transform: rotateX(0deg);
+      opacity: 1;
+    }
+}
+
+#logo {
+    text-align: center ;
+    transform-origin: center auto;
+    padding-top: 5px auto;
+    padding-left: 50px auto;
+    margin: 5px auto;
+    letter-spacing: 1em;
+    animation: rotateText 2s forwards ease-in-out;
+    color: rgb(224, 224, 224);
+    text-shadow: 5px;
+    font: bold;
+    font-family:  Bold;
+    font-weight: bold;
+    font-size: 20px ;
+
+
+    
+
+}
+
+.img1 {
+
+    background-color: black;
+    background-size: 10px auto;
+    width: 350px auto;
+    padding-bottom: 5px ;
+
+
+
+}
+.pp {
+    text-align: center ;
+    font-family: bold;
+    list-style: inherit;
+    font-weight: bold;
+    font-size: 30px ;
+    margin: 90px ;
+    color: #fff;
+    animation: rotateText 2s forwards ease-in-out;
+    text-shadow: 0px 0px 20px #f7e9cc;
+    shape-outside: circle();
+    border-top: 2px solid #474747;
+    border-bottom: 2px solid #474747;    
+}
+
+
+  .Featured {
+
+    text-align: center ;
+    color: #d1d1d1;
+    font-weight: bold;
+    margin: 50px;
+    padding: 5px;
+    margin-left: 450px auto;
+    margin-right: 450px auto;
+    background-attachment: fixed;
+
+  }
+
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  .product-card {
+    position: relative;
+    width: 250px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #202020;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    display: inline-block; 
+  }
+  
+  .product-card:hover {
+    box-shadow: 0px 10px 40px rgba(212, 0, 255, 0.3);
+    transform: translateY(-5px);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product-card h2 {
+    margin: 20px 0;
+    font-size: 24px;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #d1d1d1;
+  }
+  
+  .product-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #5c0057;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 1.3s ease;
+  }
+  
+  .product-card a:hover {
+    background-color: #000;
+  }
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+  }
