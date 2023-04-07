@@ -73,7 +73,10 @@
             <label for="quantity">Quantity:</label>
             <input type="number" id="quantity" name="quantity" min="1" max="100" required>
           
-            <button class="ripple-button" type="submit">Buy</button>
+            <button class="ripple-button" type="submit" onclick="freezeButton()">Buy</button>
+            <div id="timer"></div>
+            <div class="popup">Order has been placed!</div>
+
           </form>
 
         </div>
@@ -85,6 +88,9 @@
   </body>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="js/bot.js"></script>
+  <script src="js/time.js"></script>
 </html>
+
+
 
 
